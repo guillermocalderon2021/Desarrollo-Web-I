@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,184,39,1) 24%, rgba(0,212,255,1) 51%);
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 20px 50px;
+
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+section article{
+    width: 32.3%;
+    float: left;
+    border: 2px silver solid;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0.5%;
+    border-radius: 15px;
+    height: 400px;
+    box-shadow: 5px 5px gray;
+    
+}
+
+article h3{
+    color: green;
+    text-align: center;
+}
+
+article img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
